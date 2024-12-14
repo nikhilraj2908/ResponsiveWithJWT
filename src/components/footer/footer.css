@@ -1,0 +1,105 @@
+.footerbg{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url("../../assets/images/rec-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+.jobsinindia{
+    width:60%;
+    background: 
+    linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url('../../assets/images/city-job-bg.jpg');
+    /* background: url('../../assets/city-job-bg.jpg'),linear-gradient(#6ddad8); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    padding: 10px;
+}
+.internationaljobs{
+    width: 40%;
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url('../../assets/images/city-job-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    margin-left: 5px;
+    padding: 10px;
+}
+.footerpart2{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2));
+    padding: 1% 12% 1% 12%;
+    font-size: 13px;
+    
+}
+.socialitems{
+    text-align: end;
+    margin-top: 10px;
+}
+.socialitems a{
+    margin:0px 4px 0px 4px ;
+    padding: 6px;
+    font-size: 14px;
+    background-color: #054274;
+}
+.footerlast{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2));
+  border-top: 1px solid black;
+  line-height: 30px;
+}
+.jobscategory{
+    display: flex;
+}
+.jobcount{
+    font-size: 1.5rem;
+}
+.jobcountbanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.disclaimercontainer{
+    display: flex;
+    align-items: center;
+}
+.disclaimertext{
+    font-size:medium;
+}
+@media screen and (max-width:767px){
+    .jobscategory{
+        display: block;
+    }
+    .jobsinindia{
+        text-align: justify;
+        width: 100%;
+        margin-bottom: .6rem;
+        margin-top: 10px;
+    }
+    .internationaljobs{
+        width: 100%;
+        text-align: justify;
+
+        margin: 0px;
+    }
+    .jobcount{
+        font-size: 1rem;
+    }
+    .footerbg{
+        background: linear-gradient(rgba(253, 255, 255, 0.2), rgba(220, 227, 227, 0.2)),
+    url("");
+   
+    }
+    .disclaimertext{
+        font-size: small;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+    }
+    .socialitems{
+        text-align: left;
+    }
+}

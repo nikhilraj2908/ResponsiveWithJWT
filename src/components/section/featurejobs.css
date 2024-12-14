@@ -1,0 +1,11 @@
+.batchoffer{
+    border-radius: 0px 0px 0px 20px;
+    background-color: gold;
+    padding:0px 10px 0px 10px;
+    margin-right: -10px;
+}
+.applybtncard{
+    padding: 4px;
+    background-color:#53b9b7;
+    border: 0px;
+}
